@@ -33,3 +33,93 @@ td {
 
 }
 
+
+
+.row-table {
+    display: flex;
+    max-width: 400px;
+    justify-content: space-between;
+
+}
+
+.cell-dataTable-1 {
+    width: auto;
+    font-size: 8px;
+
+}
+
+.cell-dataTable-1 td {
+    background-color: transparent;
+    height: auto;
+    border: none;
+
+}
+
+.cell-dataTable-1 th {
+    background-color: transparent;
+    height: auto;
+    border: none;
+    text-align: left;
+    font-weight: 700;
+    padding-right: 10px;
+
+}
+
+.cell-dataTable-2 {
+    width: auto;
+    height: fit-content;
+    font-size: 8px;
+
+}
+
+.cell-dataTable-2 td {
+    background-color: rgb(250, 255, 253);
+
+    border: 2px solid rgb(230, 230, 230);
+    width: 10px;
+    height: 10px;
+    text-align: center;
+}
+
+.cell-dataTable-2 tr>td:nth-child(2) {
+    background-color: rgb(153, 239, 167);
+}
+
+.cell-dataTable-2 th {
+    background-color: transparent;
+    height: auto;
+    border: none;
+    text-align: left;
+    padding-right: 5px;
+
+}
+
+.data-container {
+    background-color: rgb(213, 253, 225);
+    height: 100%;
+    font-size: 10px;
+    line-height: 1.4;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+/* set width for each row */
+#row-2-width {
+    width: 90%;
+}
+
+#row-4-width {
+    max-width: 82%;
+}
+
+#row-5-width {
+    background-color: white;
+}
+
+#row-6-width {
+    background-color: white;
+}

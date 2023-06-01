@@ -3,19 +3,32 @@
     font-family: 'Roboto', sans-serif;
     ;
 }
+.main-table{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.st-profile{
+  height: 170px;
+}
 
 .st-profile td {
     border: none;
     background-color: white;
 }
 
-.st-img{
+.st-profile .st-img {
     height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center center;
+    
 }
 
 .st-profile>td:nth-child(2) {
-    padding-left: 10px;
     line-height: 1.6;
+    width: 280px;
 }
 
 .st-profile>td:nth-child(3) {
@@ -25,19 +38,19 @@
 }
 
 .st-profile>td:nth-child(4) {
-    
+
     text-align: center;
     vertical-align: middle;
 }
 
-.logo-img{
-   width: 90%;
-   height: auto;
+.logo-img {
+    width: 90%;
+    height: auto;
 }
 
 .st-name {
     font-size: 20px;
-    color: rgb(211, 211, 211);
+    color:#757575;
 }
 
 table {
@@ -47,26 +60,29 @@ table {
 
 th {
     border: 2px rgb(189, 189, 189) solid;
-    font-weight: 300;
+
 }
 
 .h1 {
     padding: 5px;
     font-size: 20px;
+    font-weight: 500;
 }
 
 .h2 {
     width: calc(100%/15);
     padding-bottom: 20px;
     padding-top: 5px;
+    font-weight: 500;
 }
 
-td {
+.main-table > tbody > tr > td {
     border: 1px black solid;
     height: 120px;
     background-color: rgb(230, 230, 230);
     border: 2px rgb(189, 189, 189) solid;
     vertical-align: top;
+    min-width: 80px;
 
 }
 
@@ -101,8 +117,7 @@ td {
 }
 
 .cell-dataTable-2 td {
-    background-color: rgb(250, 255, 253);
-
+    background-color: #eff8ef;
     border: 2px solid rgb(230, 230, 230);
     width: 10px;
     height: 10px;
@@ -131,6 +146,10 @@ td {
     width: 90%;
 }
 
+#row-3-width{
+    width:82%;
+}
+
 #row-4-width {
     max-width: 82%;
 }
@@ -152,6 +171,7 @@ td {
 .LO-span {
     border: none;
     width: 100%;
+    height: 100%;
     background-color: rgb(213, 253, 225);
 
 }
@@ -162,14 +182,12 @@ td {
 }
 
 .data-col {
-    max-width: 400px;
+    max-width: 450px;
     font-size: 10px;
     line-height: 1.4;
     height: fit-content;
     border: none;
-
     height: 100%;
-
 }
 
 .txt-line td {

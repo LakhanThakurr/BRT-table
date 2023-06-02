@@ -48,7 +48,7 @@
 }
 
 .logo-img {
-    width: 90%;
+    width: 80%;
     height: auto;
 }
 
@@ -82,7 +82,6 @@ th {
 }
 
 .main-table > tbody > tr > td {
-    border: 1px black solid;
     height: 120px;
     background-color: #d9d9d9;
     border: 2px #bfbfbf solid;
@@ -215,7 +214,7 @@ th {
 
 
 @media print {
-.main-table{
-   break-inside: avoid-column;
+#row-5-width{
+  page-break-after: always;
 }
 }

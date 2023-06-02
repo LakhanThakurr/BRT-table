@@ -215,22 +215,7 @@ th {
 
 
 @media print {
-    #row-2-width {
-        page-break-inside: avoid;
-        break-inside: avoid;
-    }
-
-    #row-3-width {
-        page-break-inside: avoid;
-        break-inside: avoid;
-    }
-
-    #row-4-width {
-        page-break-inside: avoid;
-        break-inside: avoid;
-    }
-
-    #row-5-width {
+   .print {
         page-break-inside: avoid;
         break-inside: avoid;
     }

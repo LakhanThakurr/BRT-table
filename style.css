@@ -34,7 +34,8 @@
 
 .st-profile>td:nth-child(2) {
     line-height: 1.6;
-    width: 280px;
+    width: -moz-fit-content;
+    width: fit-content;
     font-weight: 300;
     font-size: 15px;
     vertical-align: top;

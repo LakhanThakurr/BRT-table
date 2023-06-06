@@ -6,7 +6,12 @@
 
 .main-table {
     max-width: 1400px;
-    margin: 50px auto;
+    margin: 0px auto;
+}
+
+.main-table-wrap {
+    max-width: 1400px;
+    margin: 0px auto;
 }
 
 .st-profile {
@@ -152,9 +157,7 @@ th {
 
 
 /* set width for each row */
-#row-2-width {
-    width: 90%;
-}
+
 
 #row-3-width {
     width: 100%;
@@ -177,7 +180,6 @@ th {
 
 
 /* testing */
-
 .LO-span {
     border: none;
     width: 100%;
@@ -189,6 +191,7 @@ th {
     border: none;
     background-color: transparent;
     font-weight: 300;
+    vertical-align: top;
 }
 
 .data-col {
@@ -214,8 +217,11 @@ th {
 }
 
 
+
+
+
 @media print {
-   .print {
+    .print {
         page-break-inside: avoid;
         break-inside: avoid;
     }

@@ -40,7 +40,7 @@
     font-size: 15px;
     vertical-align: top;
     max-width: 162px;
-  
+
 }
 
 .st-profile>td:nth-child(3) {
@@ -96,7 +96,7 @@ th {
     background-color: #d9d9d9;
     border: 2px #bfbfbf solid;
     vertical-align: top;
-    min-width: 50px;
+    min-width: 100px;
 
 }
 
@@ -111,6 +111,7 @@ th {
     height: auto;
     border: none;
     font-weight: 300;
+    vertical-align: top;
 
 }
 
@@ -122,6 +123,7 @@ th {
     font-weight: 500;
     padding-right: 10px;
     min-width: 48px;
+    vertical-align: top;
 
 }
 
@@ -131,9 +133,10 @@ th {
     font-size: 10px;
     float: right;
 
+
 }
 
-.t-top{
+.t-top {
     vertical-align: top;
 }
 
@@ -231,6 +234,23 @@ th {
 
 
 @media print {
+    body{
+    transform: scale(1);
+    
+}
+
+    .print {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+}
+
+
+@media print and (orientation: portrait) {
+    body {
+        zoom: 0.67;
+    }
+
     .print {
         page-break-inside: avoid;
         break-inside: avoid;

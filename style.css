@@ -133,6 +133,10 @@ th {
 
 }
 
+.t-top{
+    vertical-align: top;
+}
+
 .cell-dataTable-2 td {
     background-color: #eff8ef;
     border: 2px solid rgb(230, 230, 230);

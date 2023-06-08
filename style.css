@@ -117,12 +117,12 @@ th {
 
 .cell-dataTable-1 th {
     background-color: transparent;
-    height: auto;
+    height: 20px;
     border: none;
     text-align: left;
     font-weight: 500;
-    padding-right: 10px;
-    min-width: 48px;
+    padding-right: 5px;
+    min-width: 57px;
     vertical-align: top;
 
 }
@@ -208,7 +208,7 @@ th {
 }
 
 .data-col {
-    max-width: 450px;
+    max-width: 470px;
     font-size: 10px;
     line-height: 1.4;
     height: fit-content;

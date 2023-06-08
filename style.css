@@ -11,7 +11,7 @@
 
 .main-table-wrap {
     max-width: 1400px;
-    margin: 0px auto;
+    margin: 50px auto;
 }
 
 .st-profile {
@@ -25,8 +25,8 @@
 }
 
 .st-profile .st-img {
-    height: 140px;
-    width: 140px;
+    height: 130px;
+    width: 130px;
     object-fit: cover;
     object-position: center center;
 
@@ -39,6 +39,8 @@
     font-weight: 300;
     font-size: 15px;
     vertical-align: top;
+    max-width: 162px;
+  
 }
 
 .st-profile>td:nth-child(3) {
@@ -49,13 +51,15 @@
 
 .st-profile>td:nth-child(4) {
 
-    text-align: center;
+    text-align: right;
     vertical-align: middle;
+    min-width: 250px
 }
 
 .logo-img {
-    width: 80%;
+    width: 76%;
     height: auto;
+    margin-right: 13px;
 }
 
 .st-name {
@@ -98,7 +102,7 @@ th {
 
 .cell-dataTable-1 {
     width: auto;
-    font-size: 8px;
+    font-size: 10px;
 
 }
 
@@ -124,7 +128,7 @@ th {
 .cell-dataTable-2 {
     width: auto;
     height: fit-content;
-    font-size: 8px;
+    font-size: 10px;
 
 }
 
